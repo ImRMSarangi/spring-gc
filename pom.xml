@@ -57,7 +57,10 @@
 				<artifactId>appengine-maven-plugin</artifactId>
 				<version>2.2.0</version>
 				<configuration>
-    				<deploy.projectId>wish-app-259411</deploy.projectId>
+    				<deploy>
+    					<version>1</version>
+    					<projectId>wish-app-259411</projectId>
+    				</deploy>
   				</configuration>
 			</plugin>
 		</plugins>
