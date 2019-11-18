@@ -22,7 +22,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
-		<deploy.projectId>GCLOUD_CONFIG</deploy.projectId>
+		<app.deploy.projectId>GCLOUD_CONFIG</app.deploy.projectId>
 	</properties>
 
 	<dependencies>
@@ -56,10 +56,6 @@
 			<plugin>
 				<groupId>com.google.cloud.tools</groupId>
 				<artifactId>appengine-maven-plugin</artifactId>
-				<configuration>
-          			<version>1</version>
-          			<projectId>GCLOUD_CONFIG</projectId>
-        		</configuration>
 				<version>2.2.0</version>
 			</plugin>
 		</plugins>
